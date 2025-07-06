@@ -1,15 +1,15 @@
 # japon_kirazcicegi_verianalizi
 
-# 🌸 Sakura Açma Günü Tahmini Projesi
+ Sakura Açma Günü Tahmini Projesi
 
 Bu projede Japonya’daki kiraz çiçeklerinin (sakura) tam açma gününü tahmin etmeye çalıştım. Veriyi biraz temizledim, birkaç model denedim ve en iyi sonucu hangisi veriyor diye inceledim.
 
-## 📁 Veri Hakkında
+ Veri Hakkında
 
 Veri seti 1953 ile 2023 yılları arasında Japonya’daki çeşitli şehirlerdeki sakura açma tarihlerini içeriyor.  
 Ben bu tarihleri yılın kaçıncı günü olduğunu hesaplayarak çalıştım (örneğin 100. gün = 10 Nisan gibi).
 
-## ✨ Neler Yaptım?
+ Neler Yaptım?
 
 - Veriyi long formata çevirdim (her satır bir şehir ve yıl olacak şekilde).
 - Tarihleri yılın kaçıncı günü formatına dönüştürdüm.
@@ -21,7 +21,7 @@ Ben bu tarihleri yılın kaçıncı günü olduğunu hesaplayarak çalıştım (
 - Sonuçları MAE (Mean Absolute Error) ile karşılaştırdım.
 - Bir de grafik çizdim, görsel olarak farkı daha iyi anlaşılıyor.
 
-## 📊 Sonuçlar
+## Sonuçlar
 
 Üç farklı model denedim ve her birinin tahmin başarısını MAE (ortalama mutlak hata) ile karşılaştırdım.
 
@@ -33,7 +33,7 @@ Model 3: Yıla göre tahmin yapan linear regression modeli. MAE değeri 14.5 gü
 
 Sonuç olarak, şehir bazlı ortalama modeli açık ara en iyi sonucu verdi.
 
-## 🛠 Kullanılanlar
+ Kullanılanlar
 
 - Python
 - Pandas
@@ -41,6 +41,6 @@ Sonuç olarak, şehir bazlı ortalama modeli açık ara en iyi sonucu verdi.
 - Matplotlib
 - Jupyter Notebook
 
-## 📌 Not
+ Not
 
 Bu proje tamamen öğrenme amacıyla yapılmıştır. Daha gelişmiş modellemeler ve iklim verileri eklenerek çok daha iyi sonuçlar elde edilebilir.
